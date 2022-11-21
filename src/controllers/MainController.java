@@ -1,6 +1,6 @@
 /*
  * File: MainController.java
- * Created Date: 2022-11-21
+ * Created Date: 2022-11-21  8:20:46
  * Author: Kovács Dorina
  * Github: https://github.com/Kdorina
  * -----
@@ -16,7 +16,6 @@ package controllers;
 
 import views.MainWindow;
 
-// A MainController
 public class MainController {
     MainWindow mainWindow;
     public MainController(MainWindow mainWindow) {

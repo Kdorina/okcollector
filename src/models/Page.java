@@ -1,8 +1,8 @@
 /*
  * File: Page.java
- * Created Date: 2022-11-21
+ * Created Date: 2022-11-21 8:20:46
  * Author: Kovács Dorina
- * Github: https://github.com/kdorina
+ * Github: https://github.com/Kdorina
  * -----
  * Last Modified: 2022-11-21
  * Modified By: Kovács Dorina
@@ -30,9 +30,9 @@ public class Page {
         ArrayList<String> wordList = new ArrayList<>();
         if (!url.isEmpty()) {
             try {
-                Connection conn = Jsoup.connect(this.url);
-                Document doc = conn.get();
-                result = doc.body().text();
+                Connection connectPage = Jsoup.connect(this.url);
+                Document document = connectPage.get();
+                result = document.body().text();
                 
                 } catch (IOException e) {
                     System.err.println("Hiba! A weblap nem olvasható");

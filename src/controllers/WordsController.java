@@ -1,7 +1,7 @@
 /*
  * File: WordsController.java
- * Created Date: 2022-11-21
- * Author:Kovács Dorina
+ * Created Date: 2022-11-21  8:20:46
+ * Author: Kovács Dorina
  * Github: https://github.com/Kdorina
  * -----
  * Last Modified: 2022-11-21
@@ -18,17 +18,12 @@ import views.MainWindow;
 
 public class WordsController {
     MainWindow mainWindow;
-    //Az osztály konstruktora
-    public WordsController(MainWindow mainWindow) {
+
+    public  WordsController(MainWindow mainWindow) {
         this.mainWindow = mainWindow;
-        this.mainWindow.exitButton.addActionListener(event ->{
+        this.mainWindow.exitJButton.addActionListener(event ->{
             System.exit(0);
         });
     }
     
 }
-
-/**
- * 2021-09-24 Kezdés
- * 2021-09-26 Szemetelés
- */

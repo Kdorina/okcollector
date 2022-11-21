@@ -1,6 +1,6 @@
 /*
  * File: CheckUrl.java
- * Created Date: 2022-11-21
+ * Created Date: 2022-11-21  8:20:46
  * Author: Kovács Dorina
  * Github: https://github.com/Kdorina
  * -----
@@ -15,12 +15,11 @@
 package models;
 
 public class CheckUrl {
-    // TODO: beírt URL ellenőrző
+
     public void check(String url) {
 
-    }//URL ellenőrzés vége
-    // TODO: ha nincs https:// akkor kiegészítjük
-    public void expandProtocol() {
+    }
+    public void expandUrl() {
 
-    }//URL kiegészítés vége
+    }
 }
